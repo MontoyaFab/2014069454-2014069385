@@ -61,10 +61,15 @@ background-color: gold;
 }
 
 .dropdown {
-    position: center;
+    position: absolute;
+    right: 60%;
     display: inline-block;
 }
-
+.dropdown2 {
+    position: absolute;
+    left: 60%;
+    display: inline-block;
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -72,8 +77,6 @@ background-color: gold;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -113,12 +116,10 @@ li a:active {
 <ul>
 
   <li><a class="active" href="#home"> Home </a></li>
+  <li><a href="Profile">Profile</a></li>
   <li><a href="#Settings">Settings</a></li>
-  <li><a href="#Tools">Tools</a></li>
   <li><a href="#Sign-out">Sign-out</a></li>
 </ul>
-
-
 
 <div class="dropdown">
   <button class="dropbtn">Select Course</button>
@@ -129,9 +130,10 @@ li a:active {
   </div>
 </div>
 
-<div class="dropdown">
+
+<div class="dropdown2">
   <button class="dropbtn">Select Course</button>
-  <div class="dropdown-content">
+  <div class="dropdown-content a">
     <a href="#">Discrete Mathematics</a>
     <a href="#">Physics 104</a>
     <a href="#">ICS113</a>
