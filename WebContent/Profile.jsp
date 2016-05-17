@@ -80,10 +80,10 @@ li a:active {
 
 <ul>
 
-  <li><a class="active" href="#home"> Home </a></li>
-  <li><a href="Profile">Profile</a></li>
-  <li><a href="Settings">Settings</a></li>
-  <li><a href="#Sign-out">Sign-out</a></li>
+  <li><a class="active" href="index.jsp"> Home </a></li>
+  <li><a href="Profile.jsp">Profile</a></li>
+  <li><a href="tools.jsp">Settings</a></li>
+  <li><a href="login.jsp">Sign-out</a></li>
 </ul>
 
 

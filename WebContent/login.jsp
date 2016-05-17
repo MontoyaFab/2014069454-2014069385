@@ -46,15 +46,15 @@ input[type=submit] {
 <p align="center"><img src="logo.png"><img src = "ustlogoz.png" align ="left"><img src = "iicslogoz.png" align ="right">
 
 <p><font size = "10">UNIVERSITY OF SANTO TOMAS</font></p>
-<form action ="" method = "post"><p>
+<form action ="success.jsp" method = "post"><p>
 <font color = "Yellow" face = "Arial" size = "3">
 <br>	
 Username: <input class="textbox" type= "text"><br><br>
 Password: <input class="textbox"type="password"><br><br>
-<input type ="submit" name = "submit" value = "Log-In">
+<input type ="submit" name = "submit" value = "Log-In" onclick="document.forms[0].action = 'success.jsp'; return true;">
 </font><br><br><br><br><br><br><br><br><br><br><br><br>
 <font color = "white"> &copy; University of Santo Tomas - Institute of Information and Computing Sciences <br>
- All Rights Reserved 2016<br>Created by: Marcelino, James and Montoya Fabian<br>Partnership by: Dean Alex Santos<br><br>
+ All Rights Reserved 2016<br>Created by: Marcelino, James and Montoya Fabian<br>Partnership with: Dean Alex Santos<br><br>
 </font>
 </p>
 </form>

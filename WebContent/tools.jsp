@@ -80,18 +80,18 @@ li a:active {
 
 <ul>
 
-  <li><a class="active" href="#home"> Home </a></li>
-  <li><a href="#Settings">Settings</a></li>
-  <li><a href="#Tools">Tools</a></li>
-  <li><a href="#Sign-out">Sign-out</a></li>
+  <li><a class="active" href="index.jsp"> Home </a></li>
+  <li><a href="Profile.jsp">Profile</a></li>
+  <li><a href="tools.jsp">Tools</a></li>
+  <li><a href="login.jsp">Sign-out</a></li>
 </ul>
 
-<input type="submit" value="Change Password">
-<input type="submit" value="Change E-mail">
-<input type="submit" value="Security & Privacy">
-<input type="submit" value="Blocked Account">
-<input type="submit" value="Muted Accounts">
-<input type="submit" value="Connected Accounts">
+<input type="submit" value="Change Password"><br><br><br><br><br>
+<input type="submit" value="Change E-mail"><br><br><br><br><br>
+<input type="submit" value="Security & Privacy"><br><br><br><br>
+<input type="submit" value="Blocked Account"><br><br><br><br><br>
+<input type="submit" value="Muted Accounts"><br><br><br><br><br>
+<input type="submit" value="Connected Accounts"><br><br><br><br><br>
 
 
 </body>

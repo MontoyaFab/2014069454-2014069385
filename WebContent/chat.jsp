@@ -131,8 +131,8 @@ li a:active {
   <li><a href="tools.jsp">Settings</a></li>
   <li><a href="Login.jsp">Sign-out</a></li>
 </ul>
-<p><input type ="submit" name = "submit" value = "HELP NOW - SELECT COURSE" onclick="document.forms[0].action = 'success.jsp'; return true;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type ="submit" name = "submit" value = "ASK NOW - SELECT COURSE" onclick="document.forms[0].action = 'success.jsp'; return true;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p><input type ="submit" name = "submit" value = "Video Call" onclick="document.forms[0].action = ''; return true;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type ="submit" name = "submit" value = "Chat Online" onclick="document.forms[0].action = ''; return true;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </p>
 </body>
 
